@@ -1,0 +1,84 @@
+baseURL = 'https://example.org/'
+languageCode = 'vi'
+title = 'Blog Lập Trình Mạng - Java & JavaScript'
+theme = 'PaperMod'
+
+[params]
+  author = "Lê Quang Minh"
+  description = "Blog cá nhân chia sẻ kiến thức về Lập Trình Mạng với Java và JavaScript"
+
+  # Theme settings
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Xin chào! Tôi là Lê Quang Minh 👋"
+    Content = """
+    Chào mừng bạn đến với blog cá nhân của tôi!
+
+    Tôi là sinh viên ngành Công Nghệ Thông Tin, đam mê với Lập Trình Mạng và các công nghệ web hiện đại.
+
+    Tại đây, tôi chia sẻ những kiến thức, kinh nghiệm và bài học mà tôi học được trong quá trình nghiên cứu về **Java** và **JavaScript**,
+    đặc biệt là các chủ đề liên quan đến lập trình mạng như Socket Programming, HTTP, WebSocket, REST API và nhiều hơn nữa.
+
+    Hãy khám phá các bài viết của tôi để cùng học hỏi và phát triển!
+    """
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:example@email.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Chủ đề"
+    url = "/categories/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "about"
+    name = "Giới thiệu"
+    url = "/about/"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
