@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'vi'
 title = 'Blog Lập Trình Mạng - Java & JavaScript'
 theme = 'PaperMod'
@@ -24,17 +24,31 @@ theme = 'PaperMod'
   showtoc = true
   tocopen = false
 
+  # Enhanced Features
+  env = "production"
+  defaultTheme = "auto"
+  # disableThemeToggle = false
+  ShowFullTextinRSS = true
+
+  # Cover image settings
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = true
+
+  # Edit post settings
+  [params.editPost]
+    disabled = true
+
   [params.homeInfoParams]
     Title = "Xin chào! Tôi là Lê Quang Minh 👋"
     Content = """
-    Chào mừng bạn đến với blog cá nhân của tôi!
+Chào mừng bạn đến với blog cá nhân của tôi!
 
-    Tôi là sinh viên ngành Công Nghệ Thông Tin, đam mê với Lập Trình Mạng và các công nghệ web hiện đại.
+Tôi là sinh viên ngành **Công Nghệ Thông Tin**, đam mê với **Lập Trình Mạng** và các công nghệ web hiện đại.
 
-    Tại đây, tôi chia sẻ những kiến thức, kinh nghiệm và bài học mà tôi học được trong quá trình nghiên cứu về **Java** và **JavaScript**,
-    đặc biệt là các chủ đề liên quan đến lập trình mạng như Socket Programming, HTTP, WebSocket, REST API và nhiều hơn nữa.
+Tại đây, tôi chia sẻ những kiến thức, kinh nghiệm và bài học mà tôi học được trong quá trình nghiên cứu về **Java** và **JavaScript**, đặc biệt là các chủ đề liên quan đến lập trình mạng như Socket Programming, HTTP, WebSocket, REST API và nhiều hơn nữa.
 
-    Hãy khám phá các bài viết của tôi để cùng học hỏi và phát triển!
+**Hãy khám phá các bài viết của tôi để cùng học hỏi và phát triển!**
     """
 
   [[params.socialIcons]]
