@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://quangminh02052004.github.io/Blog_LapTrinhMang/'
 languageCode = 'vi'
 title = 'Blog Lập Trình Mạng - Java & JavaScript'
 theme = 'PaperMod'
