@@ -66,3 +66,11 @@
     {{- end }}
     <script src="{{ $enhancements.RelPermalink }}" defer></script>
 {{- end }}
+
+{{- $heroCarousel := resources.Get "js/hero-carousel.js" }}
+{{- if $heroCarousel }}
+    {{- if hugo.IsProduction }}
+        {{- $heroCarousel = $heroCarousel | minify | fingerprint }}
+    {{- end }}
+    <script src="{{ $heroCarousel.RelPermalink }}" defer></script>
+{{- end }}

@@ -1,0 +1,197 @@
+{{- define "main" }}
+
+<!-- Hero Section with Claude-style design -->
+<section class="hero-section">
+  <div class="hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="gradient-text">Khám phá</span>
+        <span class="gradient-text">Lập Trình Mạng</span>
+      </h1>
+      <p class="hero-subtitle">
+        Nơi chia sẻ kiến thức về Java Network Programming, JavaScript,
+        Socket Programming và các công nghệ web hiện đại
+      </p>
+      <div class="hero-cta">
+        <a href="/posts/" class="cta-primary">
+          Khám phá bài viết
+          <svg class="cta-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="/categories/" class="cta-secondary">Xem chủ đề</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="image-carousel">
+        <div class="carousel-track">
+          <div class="carousel-item active">
+            <div class="code-preview">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="code-title">Server.java</span>
+              </div>
+              <pre class="code-content"><code>// TCP Server Example
+ServerSocket server = new ServerSocket(8080);
+System.out.println("Server started on port 8080");
+
+while (true) {
+    Socket client = server.accept();
+    handleClient(client);
+}</code></pre>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="code-preview">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="code-title">websocket.js</span>
+              </div>
+              <pre class="code-content"><code>// WebSocket Client
+const ws = new WebSocket('ws://localhost:3000');
+
+ws.onmessage = (event) => {
+    console.log('Received:', event.data);
+    updateUI(event.data);
+};</code></pre>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="code-preview">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="code-title">api.js</span>
+              </div>
+              <pre class="code-content"><code>// REST API with Express
+app.get('/api/users', async (req, res) => {
+    const users = await db.getUsers();
+    res.json({ success: true, users });
+});</code></pre>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="code-preview">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="code-title">HttpClient.java</span>
+              </div>
+              <pre class="code-content"><code>// HTTP Client Example
+HttpClient client = HttpClient.newHttpClient();
+HttpRequest request = HttpRequest.newBuilder()
+    .uri(URI.create("https://api.example.com"))
+    .build();</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-indicators">
+          <button class="indicator active" data-index="0"></button>
+          <button class="indicator" data-index="1"></button>
+          <button class="indicator" data-index="2"></button>
+          <button class="indicator" data-index="3"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section">
+  <div class="features-container">
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+          <line x1="8" y1="21" x2="16" y2="21"></line>
+          <line x1="12" y1="17" x2="12" y2="21"></line>
+        </svg>
+      </div>
+      <h3>Java Network Programming</h3>
+      <p>Socket, ServerSocket, HTTP, và các giao thức mạng với Java</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="16 18 22 12 16 6"></polyline>
+          <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+      </div>
+      <h3>JavaScript & Node.js</h3>
+      <p>WebSocket, REST API, Express và các công nghệ web hiện đại</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+          <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+      </div>
+      <h3>Kiến thức thực tế</h3>
+      <p>Ví dụ code thực tế, best practices và case studies</p>
+    </div>
+  </div>
+</section>
+
+<!-- Recent Posts Section -->
+<section class="posts-section">
+  <div class="posts-container">
+    <div class="section-header">
+      <h2>Bài viết mới nhất</h2>
+      <a href="/posts/" class="view-all">
+        Xem tất cả
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+          <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="posts-grid">
+      {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+      {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+      {{- range first 6 $pages }}
+      <article class="post-card">
+        {{- if .Params.cover.image }}
+        <div class="post-image">
+          <img src="{{ .Params.cover.image }}" alt="{{ .Title }}" loading="lazy">
+        </div>
+        {{- end }}
+        <div class="post-card-content">
+          {{- if .Params.tags }}
+          <div class="post-tags">
+            {{- range first 2 .Params.tags }}
+            <span class="post-tag">{{ . }}</span>
+            {{- end }}
+          </div>
+          {{- end }}
+          <h3 class="post-card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h3>
+          <p class="post-card-summary">{{ .Summary | plainify | htmlUnescape | truncate 120 }}</p>
+          <div class="post-card-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02/01/2006" }}</time>
+            {{- if .Params.ShowReadingTime }}
+            <span class="reading-time">{{ .ReadingTime }} phút đọc</span>
+            {{- end }}
+          </div>
+        </div>
+      </article>
+      {{- end }}
+    </div>
+  </div>
+</section>
+
+{{- end }}
