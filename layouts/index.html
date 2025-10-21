@@ -13,10 +13,11 @@
         Socket Programming và các công nghệ web hiện đại
       </p>
       <div class="hero-cta">
-        <a href="/posts/" class="cta-primary">
+        <a href="/Blog_LapTrinhMang/posts/" class="cta-primary">
           Khám phá bài viết
           <svg class="cta-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
           </svg>
         </a>
         <a href="/categories/" class="cta-secondary">Xem chủ đề</a>
@@ -151,10 +152,11 @@ HttpRequest request = HttpRequest.newBuilder()
   <div class="posts-container">
     <div class="section-header">
       <h2>Bài viết mới nhất</h2>
-      <a href="/posts/" class="view-all">
+      <a href="/Blog_LapTrinhMang/posts/" class="view-all">
         Xem tất cả
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
-          <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
         </svg>
       </a>
     </div>
@@ -182,7 +184,7 @@ HttpRequest request = HttpRequest.newBuilder()
           </h3>
           <p class="post-card-summary">{{ .Summary | plainify | htmlUnescape | truncate 120 }}</p>
           <div class="post-card-meta">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02/01/2006" }}</time>
+            <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02/01/2006" }}</time>
             {{- if .Params.ShowReadingTime }}
             <span class="reading-time">{{ .ReadingTime }} phút đọc</span>
             {{- end }}
