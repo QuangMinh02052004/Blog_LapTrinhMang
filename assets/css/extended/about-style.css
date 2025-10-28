@@ -1,0 +1,162 @@
+/* About Page Styling - Blog Introduction */
+
+/* Cải thiện typography cho trang giới thiệu */
+.post-content h1 {
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0 1rem 0;
+    border-bottom: 3px solid #d2691e;
+    padding-bottom: 0.5rem;
+}
+
+[data-theme="dark"] .post-content h1 {
+    border-bottom-color: #ffa07a;
+}
+
+.post-content h2 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1rem 0;
+    position: relative;
+}
+
+.post-content h2::before {
+    content: "▶";
+    color: #d2691e;
+    margin-right: 0.5rem;
+    font-size: 0.8em;
+}
+
+[data-theme="dark"] .post-content h2::before {
+    color: #ffa07a;
+}
+
+.post-content h3 {
+    color: #d2691e;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+}
+
+[data-theme="dark"] .post-content h3 {
+    color: #ffa07a;
+}
+
+/* Styling cho paragraphs */
+.post-content p {
+    line-height: 1.8;
+    margin: 1rem 0;
+    color: var(--secondary);
+}
+
+/* Styling cho lists */
+.post-content ul, .post-content ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.post-content li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    color: var(--secondary);
+}
+
+.post-content li strong {
+    color: #d2691e;
+    font-weight: 600;
+}
+
+[data-theme="dark"] .post-content li strong {
+    color: #ffa07a;
+}
+
+/* Styling cho blockquote/quote ở cuối */
+.post-content blockquote,
+.post-content p:last-of-type {
+    background: var(--theme);
+    border-left: 4px solid #d2691e;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: var(--secondary);
+    border-radius: 0 8px 8px 0;
+}
+
+[data-theme="dark"] .post-content blockquote,
+[data-theme="dark"] .post-content p:last-of-type {
+    border-left-color: #ffa07a;
+}
+
+/* Styling cho emphasis text */
+.post-content strong {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.post-content em {
+    color: #d2691e;
+    font-style: italic;
+}
+
+[data-theme="dark"] .post-content em {
+    color: #ffa07a;
+}
+
+/* Styling cho links */
+.post-content a {
+    color: #d2691e;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.post-content a:hover {
+    border-bottom-color: #d2691e;
+    background: rgba(210, 105, 30, 0.1);
+    padding: 0 0.2rem;
+}
+
+[data-theme="dark"] .post-content a {
+    color: #ffa07a;
+}
+
+[data-theme="dark"] .post-content a:hover {
+    border-bottom-color: #ffa07a;
+    background: rgba(255, 160, 122, 0.1);
+}
+
+/* Styling cho code blocks nếu có */
+.post-content code {
+    background: rgba(210, 105, 30, 0.1);
+    color: #d2691e;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Consolas', monospace;
+    font-size: 0.9em;
+}
+
+[data-theme="dark"] .post-content code {
+    background: rgba(255, 160, 122, 0.1);
+    color: #ffa07a;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+    .post-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .post-content h2 {
+        font-size: 1.3rem;
+    }
+    
+    .post-content h3 {
+        font-size: 1.1rem;
+    }
+    
+    .post-content ul, .post-content ol {
+        padding-left: 1.5rem;
+    }
+}
