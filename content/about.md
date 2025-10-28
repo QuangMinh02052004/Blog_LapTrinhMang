@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2025-10-17
+date: 2025-10-28
 draft: false
 showToc: true
 tocOpen: true
