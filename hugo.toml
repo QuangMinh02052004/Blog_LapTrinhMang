@@ -98,3 +98,12 @@ theme = 'PaperMod'
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+# Markup configuration to allow raw HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Ignore warnings about raw HTML
+ignoreLogs = ['warning-goldmark-raw-html']
