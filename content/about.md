@@ -74,7 +74,7 @@ Suốt quá trình học tập tại HUTECH, mình đã trải qua nhiều dự 
 <div class="certificates-grid">
 
 <div class="cert-card">
-  <img src="/images/certificates/networking-basics.png" alt="Networking Basics Certificate" class="cert-image">
+  <img src="/static/images/certificates/networking-basics.png" alt="Networking Basics Certificate" class="cert-image">
   <div class="cert-info">
     <h4>Networking Basics</h4>
     <p class="cert-issuer">Cisco Networking Academy</p>
@@ -83,7 +83,7 @@ Suốt quá trình học tập tại HUTECH, mình đã trải qua nhiều dự 
 </div>
 
 <div class="cert-card">
-  <img src="/images/certificates/javascript-essentials-1.png" alt="JavaScript Essentials 1 Certificate" class="cert-image">
+  <img src="/static/images/certificates/javascript-essentials-1.png" alt="JavaScript Essentials 1 Certificate" class="cert-image">
   <div class="cert-info">
     <h4>JavaScript Essentials 1</h4>
     <p class="cert-issuer">Cisco Networking Academy</p>
@@ -92,7 +92,7 @@ Suốt quá trình học tập tại HUTECH, mình đã trải qua nhiều dự 
 </div>
 
 <div class="cert-card">
-  <img src="/images/certificates/javascript-essentials-2.png" alt="JavaScript Essentials 2 Certificate" class="cert-image">
+  <img src="/static/images/certificates/javascript-essentials-2.png" alt="JavaScript Essentials 2 Certificate" class="cert-image">
   <div class="cert-info">
     <h4>JavaScript Essentials 2</h4>
     <p class="cert-issuer">Cisco Networking Academy</p>
