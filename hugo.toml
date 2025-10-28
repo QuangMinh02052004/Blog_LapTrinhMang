@@ -55,11 +55,11 @@ theme = 'PaperMod'
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com"
+    url = "https://github.com/QuangMinh02052004"
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:example@email.com"
+    url = "lequangminh951@gmail.com"
 
 [menu]
   [[menu.main]]
