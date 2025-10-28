@@ -123,11 +123,11 @@ Edit file `hugo.toml`:
 ```toml
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/yourusername"
+  url = "https://github.com/QuangMinh02052004"
   
 [[params.socialIcons]]
   name = "email"
-  url = "mailto:youremail@example.com"
+  url = "lequangminh951@gmail.com"
 ```
 
 ## Tạo Bài Viết Mới
@@ -167,14 +167,11 @@ Blog sử dụng [PaperMod](https://github.com/adityatelange/hugo-PaperMod) - m�
 - ✅ Search (JSON index)
 - ✅ Social sharing buttons
 
-## License
-
-Nội dung blog thuộc bản quyền của tác giả. Theme PaperMod sử dụng MIT License.
 
 ## Liên Hệ
 
-- Email: example@email.com
-- GitHub: [github.com/yourprofile](https://github.com)
+- Email: lequangminh951@gmail.com
+- GitHub: [github.com/QuangMinh02052004](https://github.com)
 
 ## Tham Khảo
 
