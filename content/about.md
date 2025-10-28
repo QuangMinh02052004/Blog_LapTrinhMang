@@ -5,253 +5,150 @@ draft: false
 showToc: false
 ---
 
-<div class="cv-wrapper">
+<div class="about-container">
 
-<!-- Profile Section -->
-<div class="cv-profile">
-  <img src="/Downloads/z7163575098038_ebe709ec70dde62465f7e36f677a1f32.jpg" alt="Lê Quang Minh" class="cv-profile-image">
-  <h1 class="cv-name">Lê Quang Minh</h1>
-  <p class="cv-title">Software Engineer | Network Programming Specialist</p>
-  <p class="cv-summary">
-    Sinh viên năm cuối ngành Công Nghệ Thông Tin với niềm đam mê lập trình mạng. 
-    Có kinh nghiệm với Java, JavaScript, C#, Python trong việc xây dựng các ứng dụng mạng. 
-    Luôn mong muốn tìm kiếm cơ hội để áp dụng kiến thức kỹ thuật và đóng góp vào các dự án thực tế.
-  </p>
+# Xin chào! Tôi là Quang Minh 👋
+
+<div class="about-intro">
+
+Chào mừng bạn đến với góc nhỏ của tôi trên mạng! Tôi là **Lê Quang Minh**, một sinh viên năm cuối ngành Công Nghệ Thông Tin tại Đại học Công nghệ thành phố Hồ Chí Minh (HUTECH), với niềm đam mê cháy bỏng với **Lập trình mạng** và **Phát triển Web**.
+
 </div>
 
-<!-- Contact Information -->
-<div class="cv-section">
-  <h2>📞 Thông Tin Liên Hệ</h2>
-  <div class="cv-contact">
-    <div class="cv-contact-item">
-      <div class="cv-contact-icon">📧</div>
-      <div class="cv-contact-info">
-        <strong>Email</strong>
-        <span>lequangminh951@gmail.com</span>
-      </div>
-    </div>
-    
-    <div class="cv-contact-item">
-      <div class="cv-contact-icon">📱</div>
-      <div class="cv-contact-info">
-        <strong>Điện Thoại</strong>
-        <span>0908 724 146 | 0877 414 135</span>
-      </div>
-    </div>
-    
-    <div class="cv-contact-item">
-      <div class="cv-contact-icon">📍</div>
-      <div class="cv-contact-info">
-        <strong>Địa Chỉ</strong>
-        <span>Hồ Chí Minh, Việt Nam</span>
-      </div>
-    </div>
-    
-    <div class="cv-contact-item">
-      <div class="cv-contact-icon">🌐</div>
-      <div class="cv-contact-info">
-        <strong>GitHub</strong>
-        <span><a href="https://github.com/QuangMinh02052004" target="_blank">QuangMinh02052004</a></span>
-      </div>
-    </div>
-  </div>
+## 🚀 Hành trình của tôi
+
+Câu chuyện của tôi với lập trình bắt đầu từ năm 2021, khi tôi bước chân vào giảng đường đại học với sự tò mò về cách các ứng dụng và website hoạt động. Từ những dòng code "Hello World" đầu tiên, tôi đã dần khám phá ra một thế giới kỳ diệu - nơi mà logic và sáng tạo kết hợp hoàn hảo.
+
+Đặc biệt, tôi bị mê hoặc bởi **lập trình mạng** - lĩnh vực giúp các máy tính "trò chuyện" với nhau. Từ TCP/UDP Sockets đến RESTful APIs, từ WebSocket đến HTTP protocols, mỗi khái niệm đều mở ra cho tôi một cách nhìn mới về cách internet và các ứng dụng mạng hoạt động.
+
+## 💻 Những gì tôi làm
+
+Hiện tại, tôi đang tập trung vào việc xây dựng và chia sẻ kiến thức thông qua blog này. Đây không chỉ là nơi tôi ghi lại những gì mình học được, mà còn là một cách để tôi kết nối với cộng đồng lập trình viên Việt Nam.
+
+**Các công nghệ tôi thường xuyên sử dụng:**
+- **Ngôn ngữ lập trình**: Java, JavaScript, C#, Python
+- **Web Development**: Node.js, Express.js, HTML/CSS, Bootstrap
+- **Network Programming**: TCP/UDP Sockets, REST APIs, WebSocket, RMI
+- **Databases**: MySQL
+- **Tools & Platforms**: Git/GitHub, VS Code, IntelliJ IDEA, Hugo
+
+## 🎯 Mục tiêu của tôi
+
+Tôi tin rằng việc chia sẻ kiến thức không chỉ giúp người khác mà còn giúp bản thân hiểu sâu hơn về những gì mình đang học. Qua blog này, tôi mong muốn:
+
+- 📚 Chia sẻ kiến thức về lập trình mạng một cách dễ hiểu và thực tế
+- 🔧 Hướng dẫn các tutorial thực hành với Java, JavaScript và các công nghệ web
+- 💡 Ghi lại những trải nghiệm, tips & tricks trong quá trình học tập và làm dự án
+- 🌱 Xây dựng một cộng đồng học tập và hỗ trợ lẫn nhau
+
+## 🏆 Những thành tựu đáng tự hào
+
+Trong hành trình học tập của mình, tôi đã có cơ hội đạt được một số thành tích đáng nhớ:
+
+- 🥈 **Giải Nhì Cuộc Thi Hackathon 2024** tại HUTECH với dự án "Hệ thống quản lý thư viện thông minh"
+- ☕ **Oracle Certified Java Programmer (OCJP)** - chứng nhận lập trình Java chuyên nghiệp
+- 🌐 **Networking Basics Certificate** từ Cisco - nền tảng vững chắc về mạng máy tính
+- 📊 **GPA 3.5/4.0** - kết quả của sự nỗ lực không ngừng nghỉ
+
+## 🎓 Học vấn
+
+**Cử Nhân Công Nghệ Thông Tin**
+Đại học Công nghệ thành phố Hồ Chí Minh - HUTECH
+*Thời gian: 09/2021 - 06/2025*
+
+Các môn học yêu thích: Lập trình mạng, Lập trình hướng đối tượng, Cấu trúc dữ liệu và giải thuật, Phát triển ứng dụng Web.
+
+## 🌟 Ngoài lập trình
+
+Khi không ngồi trước màn hình code, tôi thích:
+
+- 📖 **Đọc blog và tài liệu kỹ thuật** - luôn cập nhật những xu hướng công nghệ mới
+- 🎮 **Giải các bài toán thuật toán** trên LeetCode và HackerRank
+- ✍️ **Viết blog** - chia sẻ kiến thức và kinh nghiệm của bản thân
+- 🚀 **Nghiên cứu các dự án mã nguồn mở** - học hỏi từ cộng đồng developer toàn cầu
+- 🎵 **Nghe nhạc và thư giãn** - vì lập trình viên cũng cần recharge năng lượng!
+
+## 📫 Kết nối với tôi
+
+Tôi rất vui được kết nối với mọi người! Nếu bạn muốn trao đổi về lập trình, hợp tác trong dự án, hoặc đơn giản chỉ là muốn chào hỏi, đừng ngại liên hệ nhé:
+
+<div class="contact-links">
+
+- 📧 **Email**: [lequangminh951@gmail.com](mailto:lequangminh951@gmail.com)
+- 💼 **GitHub**: [github.com/QuangMinh02052004](https://github.com/QuangMinh02052004)
+- 📱 **Điện thoại**: 0908 724 146 | 0877 414 135
+- 📍 **Địa chỉ**: Hồ Chí Minh, Việt Nam
+
 </div>
 
-<!-- Education -->
-<div class="cv-section">
-  <h2>🎓 Học Vấn</h2>
-  <div class="cv-education">
-    <div class="cv-education-item">
-      <div class="cv-education-icon">🏫</div>
-      <div class="cv-education-content">
-        <h3>Cử Nhân Công Nghệ Thông Tin</h3>
-        <p class="school">Đại học Công nghệ thành phố Hồ Chí Minh - HUTECH</p>
-        <p class="date">09/2021 - 06/2025</p>
-        <div class="description">
-          <strong>GPA:</strong> 3.5/4.0<br>
-          <strong>Môn học nổi bật:</strong> Lập trình hướng đối tượng, Cấu trúc dữ liệu và giải thuật, Lập trình mạng
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+---
 
-<!-- Technical Skills -->
-<div class="cv-section">
-  <h2>⚡ Kỹ Năng Kỹ Thuật</h2>
-  <div class="cv-skills">
-    <div class="cv-skill-category">
-      <h3>Ngôn Ngữ Lập Trình</h3>
-      <ul class="cv-skill-list">
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>C#</li>
-        <li>Python</li>
-        <li>HTML/CSS</li>
-      </ul>
-    </div>
-    
-    <div class="cv-skill-category">
-      <h3>Frameworks & Libraries</h3>
-      <ul class="cv-skill-list">
-        <li>Spring Boot</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Hugo</li>
-        <li>Bootstrap</li>
-      </ul>
-    </div>
-    
-    <div class="cv-skill-category">
-      <h3>Database & Tools</h3>
-      <ul class="cv-skill-list">
-        <li>MySQL</li>
-        <li>Git/GitHub</li>
-        <li>VS Code</li>
-        <li>IntelliJ IDEA</li>
-        <li>Postman</li>
-      </ul>
-    </div>
-    
-    <div class="cv-skill-category">
-      <h3>Network Programming</h3>
-      <ul class="cv-skill-list">
-        <li>TCP/UDP Sockets</li>
-        <li>REST APIs</li>
-        <li>WebSocket</li>
-        <li>HTTP Client/Server</li>
-        <li>RMI</li>
-      </ul>
-    </div>
-  </div>
-</div>
+<div class="about-footer">
 
-<!-- Certifications & Achievements -->
-<div class="cv-section">
-  <h2>🏆 Chứng Chỉ & Thành Tích</h2>
-  <div class="cv-cert-list">
-    <div class="cv-cert-item">
-      <div class="cv-cert-icon">🎓</div>
-      <div class="cv-cert-content">
-        <h4>Networking Basics Certificate</h4>
-        <p>Cisco | 2024</p>
-        <div class="cv-cert-description">Kiến thức cơ bản về mạng máy tính, TCP/IP, OSI Model</div>
-      </div>
-    </div>
+*"Học tập không bao giờ là hết. Mỗi dòng code viết ra là một bài học mới."*
 
-    <div class="cv-cert-item">
-      <div class="cv-cert-icon">☕</div>
-      <div class="cv-cert-content">
-        <h4>Oracle Certified Java Programmer (OCJP)</h4>
-        <p>Oracle | 2024</p>
-        <div class="cv-cert-description">Chứng nhận lập trình Java chuyên nghiệp</div>
-      </div>
-    </div>
+Cảm ơn bạn đã ghé thăm blog của tôi. Hy vọng những bài viết ở đây sẽ hữu ích cho hành trình lập trình của bạn! 🚀
 
-    <div class="cv-cert-item">
-      <div class="cv-cert-icon">⚡</div>
-      <div class="cv-cert-content">
-        <h4>JavaScript Algorithms and Data Structures</h4>
-        <p>freeCodeCamp | 2023</p>
-        <div class="cv-cert-description">300+ giờ học thuật toán và cấu trúc dữ liệu</div>
-      </div>
-    </div>
-
-    <div class="cv-cert-item">
-      <div class="cv-cert-icon">🏆</div>
-      <div class="cv-cert-content">
-        <h4>Giải Nhì Cuộc Thi Hackathon 2024</h4>
-        <p>Đại học HUTECH | 2024</p>
-        <div class="cv-cert-description">Dự án: Hệ thống quản lý thư viện thông minh</div>
-      </div>
-    </div>
-
-    <div class="cv-cert-item">
-      <div class="cv-cert-icon">🌐</div>
-      <div class="cv-cert-content">
-        <h4>Web Development Fundamentals</h4>
-        <p>Coursera | 2023</p>
-        <div class="cv-cert-description">HTML5, CSS3, JavaScript, Responsive Design</div>
-      </div>
-    </div>
-
-    <div class="cv-cert-item">
-      <div class="cv-cert-icon">🔒</div>
-      <div class="cv-cert-content">
-        <h4>Introduction to Cybersecurity</h4>
-        <p>Cisco Networking Academy | 2023</p>
-        <div class="cv-cert-description">Bảo mật mạng, phòng chống tấn công mạng</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Projects -->
-<div class="cv-section">
-  <h2>💼 Dự Án Tiêu Biểu</h2>
-  <div class="cv-timeline">
-    <div class="cv-timeline-item">
-      <div class="cv-timeline-content">
-        <h3 class="cv-timeline-title">Blog Lập Trình Mạng</h3>
-        <p class="cv-timeline-company">Dự án cá nhân | <a href="https://quangminh02052004.github.io/Blog_LapTrinhMang/" target="_blank">Visit Site</a></p>
-        <p class="cv-timeline-date">2024</p>
-        <div class="cv-timeline-description">
-          Blog cá nhân chia sẻ kiến thức về lập trình mạng, Java và JavaScript. Được build với Hugo và deploy tự động lên GitHub Pages.
-          <ul>
-            <li>Thiết kế giao diện hiện đại với landing page tùy chỉnh</li>
-            <li>Tích hợp image carousel và smooth animations</li>
-            <li>Setup CI/CD với GitHub Actions</li>
-            <li>Responsive design hỗ trợ dark/light mode</li>
-          </ul>
-          <strong>Công nghệ:</strong> Hugo, JavaScript, CSS, GitHub Actions
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Languages -->
-<div class="cv-section">
-  <h2>🌐 Ngôn Ngữ</h2>
-  <div class="cv-skills">
-    <div class="cv-skill-category">
-      <h3>Tiếng Việt</h3>
-      <ul class="cv-skill-list">
-        <li>Bản ngữ</li>
-      </ul>
-    </div>
-    
-    <div class="cv-skill-category">
-      <h3>Tiếng Anh</h3>
-      <ul class="cv-skill-list">
-        <li>TOEIC 750+</li>
-        <li>Đọc hiểu tài liệu kỹ thuật tốt</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!-- Interests -->
-<div class="cv-section">
-  <h2>❤️ Sở Thích</h2>
-  <div class="cv-skills">
-    <div class="cv-skill-category">
-      <h3>Phát Triển Kỹ Năng</h3>
-      <ul class="cv-skill-list">
-        <li>Open Source Contribution</li>
-        <li>Technical Blogging</li>
-        <li>Coding Challenges</li>
-        <li>Learning New Technologies</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!-- Download CV Button -->
-<div class="cv-actions">
-  <button class="cv-download-btn" onclick="window.print(); return false;">
-    📥 Tải CV (Print to PDF)
-  </button>
 </div>
 
 </div>
+
+<style>
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-intro {
+  background: var(--entry);
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  border-left: 4px solid var(--primary);
+}
+
+.about-intro strong {
+  color: var(--primary);
+}
+
+.contact-links {
+  background: var(--entry);
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.contact-links a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+.about-footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-top: 2px solid var(--border);
+  font-style: italic;
+  color: var(--secondary);
+}
+
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+</style>
