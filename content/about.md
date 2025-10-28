@@ -2,361 +2,592 @@
 title: "About"
 date: 2025-10-28
 draft: false
-showToc: true
-tocOpen: true
+showToc: false
+tocOpen: false
 ---
 
-## Giới thiệu cá nhân
+<div class="cv-container">
 
-Xin chào! Mình là **Lê Quang Minh**, sinh năm **2004**. Hiện tại, mình là sinh viên năm cuối ngành **Công Nghệ Thông Tin** tại Đại học Công nghệ thành phố Hồ Chí Minh (**HUTECH**), dự kiến tốt nghiệp vào tháng 06/2026.
+<!-- CV Header with Download Button -->
+<div class="cv-header">
+  <div class="cv-header-content">
+    <h1 class="cv-name">Lê Quang Minh</h1>
+    <p class="cv-title">Software Engineer | Network Programming Specialist</p>
+  </div>
+  <a href="/cv/Le-Quang-Minh-CV.pdf" download class="cv-download-btn">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7 10 12 15 17 10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+    Tải CV (PDF)
+  </a>
+</div>
 
-Mình đang sinh sống và học tập tại **Thành phố Hồ Chí Minh, Việt Nam** - một trong những trung tâm công nghệ năng động nhất của đất nước.
-
----
-
-## Mục tiêu nghề nghiệp
-
-Mình mong muốn trở thành một **Software Engineer** chuyên về **Lập Trình Mạng và Phát Triển Web Full-Stack**. Đặc biệt, mình có niềm đam mê với:
-
-- **Network Programming**: TCP/UDP Socket Programming, REST APIs, WebSocket, RMI
-- **Backend Development**: Java Spring Boot, Node.js, Express.js
-- **Frontend Development**: HTML/CSS, JavaScript, Bootstrap, Responsive Design
-- **Database Management**: SQL
-
-Mình tin rằng sự kết hợp giữa kiến thức về mạng máy tính và kỹ năng phát triển web sẽ giúp mình xây dựng những ứng dụng mạnh mẽ, có khả năng mở rộng và hiệu suất cao.
-
----
-
-## Hành trình học tập
-
-Suốt quá trình học tập tại HUTECH, mình đã trải qua nhiều dự án và môn học thú vị:
-
-### 📚 Các môn học nổi bật
-- **Lập trình mạng**: Nơi mình khám phá ra niềm đam mê với Socket Programming và giao thức mạng
-- **Lập trình hướng đối tượng**: Nền tảng vững chắc về OOP với Java
-- **Cấu trúc dữ liệu và giải thuật**: Rèn luyện tư duy logic và tối ưu hóa code
-- **Phát triển ứng dụng Web**: Từ HTML/CSS cơ bản đến các framework hiện đại
----
-
-## Kỹ năng & Công nghệ
-
-### 💻 Ngôn ngữ lập trình
-- **Java**: Ngôn ngữ chính, sử dụng cho lập trình mạng và backend development
-- **JavaScript**: Frontend và Backend (Node.js)
-- **C#**: Phát triển ứng dụng desktop và game với Unity
-- **Python**: Scripting và automation
-- **HTML/CSS**: Xây dựng giao diện web
-
-### 🛠️ Frameworks & Tools
-
-- **Hugo**: Static site generator (blog này được build bằng Hugo!)
-- **Git/GitHub**: Version control và collaboration
-- **VS Code, IntelliJ IDEA**: IDE ưa thích
-- **Postman**: API testing và development
-
-### 🌐 Network & Web Technologies
-- **TCP/UDP Socket Programming**
-- **HTTP/HTTPS Protocols**
-- **RESTful API Design**
-- **WebSocket** (Real-time communication)
-- **RMI** (Remote Method Invocation)
-
----
-
-## Thành tích học tập
-
-### 📊 Kết quả học tập
-- **GPA**: 3.0/4.0
-
-
-### 🏆 Chứng chỉ & Giải thưởng
-
-<div class="certificates-grid">
-
-<div class="cert-card">
-  <img src="/static/images/certificates/networking-basics.png" alt="Networking Basics Certificate" class="cert-image">
-  <div class="cert-info">
-    <h4>Networking Basics</h4>
-    <p class="cert-issuer">Cisco Networking Academy</p>
-    <p class="cert-date">Sep 21, 2025</p>
+<!-- Personal Info Section -->
+<div class="cv-section cv-info-grid">
+  <div class="cv-info-item">
+    <div class="cv-info-icon">📧</div>
+    <div class="cv-info-content">
+      <strong>Email</strong>
+      <span>lequangminh951@gmail.com</span>
+    </div>
+  </div>
+  
+  <div class="cv-info-item">
+    <div class="cv-info-icon">📱</div>
+    <div class="cv-info-content">
+      <strong>Điện thoại</strong>
+      <span>0908 724 146 | 0877 414 135</span>
+    </div>
+  </div>
+  
+  <div class="cv-info-item">
+    <div class="cv-info-icon">📍</div>
+    <div class="cv-info-content">
+      <strong>Địa chỉ</strong>
+      <span>TP. Hồ Chí Minh, Việt Nam</span>
+    </div>
+  </div>
+  
+  <div class="cv-info-item">
+    <div class="cv-info-icon">💼</div>
+    <div class="cv-info-content">
+      <strong>GitHub</strong>
+      <a href="https://github.com/QuangMinh02052004" target="_blank">QuangMinh02052004</a>
+    </div>
+  </div>
+  
+  <div class="cv-info-item">
+    <div class="cv-info-icon">🎓</div>
+    <div class="cv-info-content">
+      <strong>Ngày sinh</strong>
+      <span>27/01/2004</span>
+    </div>
+  </div>
+  
+  <div class="cv-info-item">
+    <div class="cv-info-icon">🌐</div>
+    <div class="cv-info-content">
+      <strong>Blog</strong>
+      <a href="https://quangminh02052004.github.io/Blog_LapTrinhMang/" target="_blank">Blog Lập Trình Mạng</a>
+    </div>
   </div>
 </div>
 
-<div class="cert-card">
-  <img src="/static/images/certificates/javascript-essentials-1.png" alt="JavaScript Essentials 1 Certificate" class="cert-image">
-  <div class="cert-info">
-    <h4>JavaScript Essentials 1</h4>
-    <p class="cert-issuer">Cisco Networking Academy</p>
-    <p class="cert-date">Sep 30, 2025</p>
+<!-- Summary Section -->
+<div class="cv-section">
+  <h2 class="cv-section-title">Mục tiêu nghề nghiệp</h2>
+  <p class="cv-summary">
+    Sinh viên năm cuối ngành Công Nghệ Thông Tin tại HUTECH với niềm đam mê về <strong>Network Programming</strong> và <strong>Full-Stack Web Development</strong>. Mong muốn trở thành Software Engineer chuyên nghiệp, áp dụng kiến thức về lập trình mạng và phát triển web để xây dựng các ứng dụng hiệu suất cao, có khả năng mở rộng tốt.
+  </p>
+</div>
+
+<!-- Education Section -->
+<div class="cv-section">
+  <h2 class="cv-section-title">Học vấn</h2>
+  <div class="cv-timeline-item">
+    <div class="cv-timeline-header">
+      <h3>Đại học Công nghệ TP.HCM (HUTECH)</h3>
+      <span class="cv-timeline-date">2022 - 2026 (Dự kiến)</span>
+    </div>
+    <p class="cv-timeline-subtitle">Cử nhân Công Nghệ Thông Tin</p>
+    <ul class="cv-timeline-details">
+      <li><strong>GPA:</strong> 3.0/4.0</li>
+      <li><strong>Chuyên ngành:</strong> Lập trình mạng, Phát triển ứng dụng Web</li>
+    </ul>
   </div>
 </div>
 
-<div class="cert-card">
-  <img src="/static/images/certificates/javascript-essentials-2.png" alt="JavaScript Essentials 2 Certificate" class="cert-image">
-  <div class="cert-info">
-    <h4>JavaScript Essentials 2</h4>
-    <p class="cert-issuer">Cisco Networking Academy</p>
-    <p class="cert-date">Oct 14, 2025</p>
+<!-- Skills Section -->
+<div class="cv-section">
+  <h2 class="cv-section-title">Kỹ năng</h2>
+  
+  <div class="cv-skills-grid">
+    <div class="cv-skill-box">
+      <h3>💻 Ngôn ngữ lập trình</h3>
+      <div class="cv-skill-tags">
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">C#</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">HTML/CSS</span>
+      </div>
+    </div>
+    
+    <div class="cv-skill-box">
+      <h3>🛠️ Frameworks & Tools</h3>
+      <div class="cv-skill-tags">
+        <span class="skill-tag">Git/GitHub</span>
+        <span class="skill-tag">VS Code</span>
+        <span class="skill-tag">IntelliJ IDEA</span>
+        <span class="skill-tag">Postman</span>
+        <span class="skill-tag">Hugo</span>
+      </div>
+    </div>
+    
+    <div class="cv-skill-box">
+      <h3>🌐 Network & Web Tech</h3>
+      <div class="cv-skill-tags">
+        <span class="skill-tag">TCP/UDP Socket</span>
+        <span class="skill-tag">HTTP/HTTPS</span>
+        <span class="skill-tag">RESTful API</span>
+        <span class="skill-tag">WebSocket</span>
+        <span class="skill-tag">RMI</span>
+      </div>
+    </div>
+    
+    <div class="cv-skill-box">
+      <h3>💾 Database</h3>
+      <div class="cv-skill-tags">
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Database Design</span>
+      </div>
+    </div>
   </div>
 </div>
 
-</div>
-
----
-
-## Mục đích của Blog
-
-Blog này được tạo ra với mục tiêu:
-
-1. **📝 Hệ thống hóa kiến thức**: Ghi chép lại những gì mình học được trong quá trình học tập và làm việc, giúp bản thân có một nguồn tài liệu tham khảo.
-
-2. **🤝 Chia sẻ kinh nghiệm**: Chia sẻ những kiến thức, kinh nghiệm, tips & tricks về lập trình mạng, Java, JavaScript và phát triển web với cộng đồng.
-
-3. **💡 Học hỏi từ cộng đồng**: Mong muốn kết nối với những người có cùng đam mê, học hỏi và trao đổi kiến thức lẫn nhau.
-
-4. **🚀 Theo dõi hành trình phát triển**: Blog như một "nhật ký" ghi lại quá trình trưởng thành của bản thân trong sự nghiệp lập trình.
-
-Mình tin rằng *"Dạy là học lần thứ hai"* - khi giải thích một khái niệm cho người khác, chính mình sẽ hiểu sâu hơn về nó. Đó cũng là lý do mình tạo ra blog này!
-
----
-
-## Liên hệ
-
-Rất vui được kết nối với bạn! Nếu bạn muốn trao đổi về lập trình, hợp tác trong dự án, hoặc chỉ đơn giản là muốn trò chuyện, đừng ngại liên hệ với mình qua:
-
-<div class="contact-section">
-
-<div class="contact-card">
-  <div class="contact-icon">📧</div>
-  <div class="contact-info">
-    <h4>Email</h4>
-    <a href="mailto:lequangminh951@gmail.com">lequangminh951@gmail.com</a>
+<!-- Certificates Section -->
+<div class="cv-section">
+  <h2 class="cv-section-title">Chứng chỉ & Giải thưởng</h2>  
+  <div class="cv-cert-grid">
+    <div class="cv-cert-item">
+      <img src="/static/images/certificates/networking-basics.png" alt="Networking Basics" class="cv-cert-img">
+      <div class="cv-cert-details">
+        <h4>Networking Basics</h4>
+        <p>Cisco Networking Academy</p>
+        <span>Sep 21, 2025</span>
+      </div>
+    </div>   
+    <div class="cv-cert-item">
+      <img src="/static/images/certificates/javascript-essentials-1.png" alt="JavaScript Essentials 1" class="cv-cert-img">
+      <div class="cv-cert-details">
+        <h4>JavaScript Essentials 1</h4>
+        <p>Cisco Networking Academy</p>
+        <span>Sep 30, 2025</span>
+      </div>
+    </div> 
+    <div class="cv-cert-item">
+      <img src="/static/images/certificates/javascript-essentials-2.png" alt="JavaScript Essentials 2" class="cv-cert-img">
+      <div class="cv-cert-details">
+        <h4>JavaScript Essentials 2</h4>
+        <p>Cisco Networking Academy</p>
+        <span>Oct 14, 2025</span>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="contact-card">
-  <div class="contact-icon">💼</div>
-  <div class="contact-info">
-    <h4>GitHub</h4>
-    <a href="https://github.com/QuangMinh02052004" target="_blank">github.com/QuangMinh02052004</a>
+<!-- About Blog Section -->
+<div class="cv-section">
+  <h2 class="cv-section-title">Về Blog này</h2>
+  <div class="cv-blog-purpose">
+    <div class="cv-blog-item">
+      <div class="cv-blog-icon">�</div>
+      <div>
+        <strong>Hệ thống hóa kiến thức</strong>
+        <p>Ghi chép và tổ chức những kiến thức học được trong quá trình học tập và làm việc</p>
+      </div>
+    </div>
+    <div class="cv-blog-item">
+      <div class="cv-blog-icon">🤝</div>
+      <div>
+        <strong>Chia sẻ kinh nghiệm</strong>
+        <p>Chia sẻ kiến thức, tips & tricks về lập trình mạng, Java, JavaScript và phát triển web</p>
+      </div>
+    </div>
+    
+    <div class="cv-blog-item">
+      <div class="cv-blog-icon">�</div>
+      <div>
+        <strong>Học hỏi từ cộng đồng</strong>
+        <p>Kết nối với những người có cùng đam mê, trao đổi và học hỏi lẫn nhau</p>
+      </div>
+    </div>
+    
+    <div class="cv-blog-item">
+      <div class="cv-blog-icon">�</div>
+      <div>
+        <strong>Theo dõi hành trình phát triển</strong>
+        <p>Blog như một "nhật ký" ghi lại quá trình trưởng thành trong sự nghiệp lập trình</p>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="contact-card">
-  <div class="contact-icon">📱</div>
-  <div class="contact-info">
-    <h4>Điện thoại</h4>
-    <p>0908 724 146 | 0877 414 135</p>
-  </div>
+<!-- Footer Quote -->
+<div class="cv-footer">
+  <p><em>"Hãy làm những gì mình có thể làm và làm hết sức có thể để đạt được thành quả tốt nhất"</em></p>
 </div>
-
-<div class="contact-card">
-  <div class="contact-icon">📍</div>
-  <div class="contact-info">
-    <h4>Địa chỉ</h4>
-    <p>Thành phố Hồ Chí Minh, Việt Nam</p>
-  </div>
-</div>
-
-</div>
-
-### 🗺️ Vị trí
-
-<div class="map-container">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251637.95196238213!2d106.36556401640625!3d10.755292999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
-    width="100%"
-    height="400"
-    style="border:0; border-radius: 8px;"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
-
----
-
-<div class="thank-you">
-
-### 🙏 Cảm ơn bạn đã ghé thăm!
-
-Cảm ơn bạn đã dành thời gian đọc về mình. Hy vọng những bài viết trên blog này sẽ hữu ích cho hành trình học tập và phát triển của bạn. Hãy cùng nhau học hỏi và tiến bộ mỗi ngày!
-
-*"Hãy làm những gì mình có thể làm và làm hết sức có thể để đạt được thành quả tốt nhất"
 
 </div>
 
 <style>
-/* Certificates Grid */
-.certificates-grid {
+/* CV Container */
+.cv-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--entry);
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* CV Header */
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #2c5f7c;
+  margin-bottom: 2rem;
+}
+
+.cv-name {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2c5f7c;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.5px;
+}
+
+.cv-title {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  margin: 0;
+  font-weight: 500;
+}
+
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #2c5f7c;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(44, 95, 124, 0.3);
+}
+
+.cv-download-btn:hover {
+  background: #234a61;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(44, 95, 124, 0.4);
+}
+
+/* Personal Info Grid */
+.cv-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.cv-info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.cv-info-item:hover {
+  border-color: #2c5f7c;
+  background: rgba(44, 95, 124, 0.05);
+}
+
+.cv-info-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.cv-info-content strong {
+  display: block;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.cv-info-content span,
+.cv-info-content a {
+  color: var(--secondary);
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.cv-info-content a {
+  text-decoration: none;
+  color: #2c5f7c;
+}
+
+.cv-info-content a:hover {
+  text-decoration: underline;
+}
+
+/* CV Sections */
+.cv-section {
+  margin: 2.5rem 0;
+}
+
+.cv-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c5f7c;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #2c5f7c;
+}
+
+.cv-summary {
+  line-height: 1.8;
+  color: var(--secondary);
+  font-size: 1rem;
+}
+
+/* Timeline Items */
+.cv-timeline-item {
+  padding: 1.5rem;
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-left: 4px solid #2c5f7c;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.cv-timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cv-timeline-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+}
+
+.cv-timeline-date {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.cv-timeline-subtitle {
+  font-size: 1rem;
+  color: #2c5f7c;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.cv-timeline-details {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+.cv-timeline-details li {
+  color: var(--secondary);
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+/* Skills Grid */
+.cv-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.cv-skill-box {
+  background: var(--theme);
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.cv-skill-box h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 0 0 1rem 0;
+}
+
+.cv-skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: rgba(44, 95, 124, 0.1);
+  color: #2c5f7c;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(44, 95, 124, 0.2);
+}
+
+[data-theme="dark"] .skill-tag {
+  background: rgba(44, 95, 124, 0.2);
+  color: #5fa3c9;
+}
+
+/* Certificates */
+.cv-cert-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
+  gap: 1.5rem;
 }
 
-.cert-card {
-  background: var(--entry);
+.cv-cert-item {
+  background: var(--theme);
   border: 2px solid var(--border);
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.cert-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  border-color: var(--primary);
+.cv-cert-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-color: #2c5f7c;
 }
 
-.cert-image {
+.cv-cert-img {
   width: 100%;
   height: auto;
   display: block;
   border-bottom: 2px solid var(--border);
 }
 
-.cert-info {
-  padding: 1.5rem;
+.cv-cert-details {
+  padding: 1rem;
 }
 
-.cert-info h4 {
-  margin: 0 0 0.5rem 0;
-  color: var(--primary);
-  font-size: 1.2rem;
+.cv-cert-details h4 {
+  font-size: 1.1rem;
   font-weight: 600;
+  color: var(--primary);
+  margin: 0 0 0.5rem 0;
 }
 
-.cert-issuer {
-  color: var(--secondary);
-  font-size: 1rem;
-  margin: 0.5rem 0;
+.cv-cert-details p {
+  color: #2c5f7c;
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
   font-weight: 500;
 }
 
-.cert-date {
+.cv-cert-details span {
   color: var(--secondary);
-  font-size: 0.9rem;
-  margin: 0.5rem 0 0 0;
-  opacity: 0.7;
+  font-size: 0.85rem;
   font-style: italic;
 }
 
-/* Contact Section */
-.contact-section {
+/* Blog Purpose */
+.cv-blog-purpose {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
+  gap: 1rem;
 }
 
-.contact-card {
-  background: var(--entry);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.5rem;
+.cv-blog-item {
   display: flex;
   gap: 1rem;
-  align-items: flex-start;
-  transition: all 0.3s ease;
+  padding: 1.2rem;
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: 8px;
 }
 
-.contact-card:hover {
-  border-color: var(--primary);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.contact-icon {
+.cv-blog-icon {
   font-size: 2rem;
   flex-shrink: 0;
 }
 
-.contact-info h4 {
-  margin: 0 0 0.5rem 0;
+.cv-blog-item strong {
+  display: block;
   color: var(--primary);
   font-size: 1rem;
+  margin-bottom: 0.3rem;
 }
 
-.contact-info a {
-  color: var(--primary);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
-}
-
-.contact-info p {
-  margin: 0;
-  color: var(--content);
-  font-size: 0.95rem;
-}
-
-/* Map Container */
-.map-container {
-  margin: 2rem 0;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Thank You Section */
-.thank-you {
-  background: var(--entry);
-  border: 2px solid var(--primary);
-  border-radius: 12px;
-  padding: 2rem;
-  margin: 3rem 0 2rem 0;
-  text-align: center;
-}
-
-.thank-you h3 {
-  margin-top: 0;
-  color: var(--primary);
-}
-
-.thank-you em {
+.cv-blog-item p {
   color: var(--secondary);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .certificates-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-section {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-card {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .map-container iframe {
-    height: 300px;
-  }
-}
-
-/* Content improvements */
-h2 {
-  border-bottom: 2px solid var(--border);
-  padding-bottom: 0.5rem;
+/* Footer */
+.cv-footer {
+  text-align: center;
+  padding: 2rem 0;
   margin-top: 3rem;
+  border-top: 2px solid var(--border);
 }
 
-h3 {
-  color: var(--primary);
-  margin-top: 2rem;
+.cv-footer p {
+  color: var(--secondary);
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 3rem 0;
+/* Responsive */
+@media (max-width: 768px) {
+  .cv-container {
+    padding: 2rem 1.5rem;
+  }
+  
+  .cv-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .cv-name {
+    font-size: 2rem;
+  }
+  
+  .cv-info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cv-skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cv-cert-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cv-timeline-header {
+    flex-direction: column;
+  }
+}
+
+@media print {
+  .cv-download-btn {
+    display: none;
+  }
+  
+  .cv-container {
+    box-shadow: none;
+    padding: 1rem;
+  }
 }
 </style>
