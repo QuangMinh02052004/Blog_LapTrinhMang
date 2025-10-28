@@ -1,7 +1,9 @@
 <!-- Google Fonts - Inter (Body), Playfair Display (Headings), JetBrains Mono (Code) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
 
 <!-- Meta Tags for SEO & Social Sharing -->
 <meta name="description" content="Blog Lập Trình Mạng - Chia sẻ kiến thức về Java Network Programming và JavaScript">
@@ -20,7 +22,17 @@
 <meta name="twitter:description" content="{{ .Summary | default .Site.Params.description }}">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+<link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+<!-- About Page CSS -->
+{{ if eq .Title "About" }}
+{{ $aboutStyle := resources.Get "css/extended/about-style.css" }}
+{{ if $aboutStyle }}
+{{ $aboutStyleMin := $aboutStyle | minify }}
+<link rel="stylesheet" href="{{ $aboutStyleMin.RelPermalink }}">
+{{ end }}
+{{ end }}
 
 <!-- Minimal Design Enhancements -->
 <style>
@@ -39,6 +51,7 @@
         from {
             opacity: 0;
         }
+
         to {
             opacity: 1;
         }
@@ -53,24 +66,24 @@
 <!-- Interactive Enhancements Scripts -->
 {{- $navScroll := resources.Get "js/nav-scroll.js" }}
 {{- if $navScroll }}
-    {{- if hugo.IsProduction }}
-        {{- $navScroll = $navScroll | minify | fingerprint }}
-    {{- end }}
-    <script src="{{ $navScroll.RelPermalink }}" defer></script>
+{{- if hugo.IsProduction }}
+{{- $navScroll = $navScroll | minify | fingerprint }}
+{{- end }}
+<script src="{{ $navScroll.RelPermalink }}" defer></script>
 {{- end }}
 
 {{- $enhancements := resources.Get "js/enhancements.js" }}
 {{- if $enhancements }}
-    {{- if hugo.IsProduction }}
-        {{- $enhancements = $enhancements | minify | fingerprint }}
-    {{- end }}
-    <script src="{{ $enhancements.RelPermalink }}" defer></script>
+{{- if hugo.IsProduction }}
+{{- $enhancements = $enhancements | minify | fingerprint }}
+{{- end }}
+<script src="{{ $enhancements.RelPermalink }}" defer></script>
 {{- end }}
 
 {{- $heroCarousel := resources.Get "js/hero-carousel.js" }}
 {{- if $heroCarousel }}
-    {{- if hugo.IsProduction }}
-        {{- $heroCarousel = $heroCarousel | minify | fingerprint }}
-    {{- end }}
-    <script src="{{ $heroCarousel.RelPermalink }}" defer></script>
+{{- if hugo.IsProduction }}
+{{- $heroCarousel = $heroCarousel | minify | fingerprint }}
+{{- end }}
+<script src="{{ $heroCarousel.RelPermalink }}" defer></script>
 {{- end }}

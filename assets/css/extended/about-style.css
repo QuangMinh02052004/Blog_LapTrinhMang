@@ -1,4 +1,4 @@
-/* About Page Styling - Blog Introduction */
+nhưng/* About Page Styling - Blog Introduction */
 
 /* Cải thiện typography cho trang giới thiệu */
 .post-content h1 {
@@ -142,6 +142,147 @@
     color: #ffa07a;
 }
 
+/* Styling cho certificates grid */
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.cert-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    border-left: 4px solid #d2691e;
+    transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(210, 105, 30, 0.15);
+}
+
+[data-theme="dark"] .cert-card:hover {
+    box-shadow: 0 4px 12px rgba(255, 160, 122, 0.15);
+}
+
+.cert-icon {
+    font-size: 2.5rem;
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(210, 105, 30, 0.1);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+[data-theme="dark"] .cert-icon {
+    background: rgba(255, 160, 122, 0.1);
+}
+
+.cert-content h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0 0 0.5rem 0;
+}
+
+.cert-issuer {
+    font-size: 1rem;
+    color: #d2691e;
+    font-weight: 600;
+    margin: 0 0 0.3rem 0;
+}
+
+[data-theme="dark"] .cert-issuer {
+    color: #ffa07a;
+}
+
+.cert-year {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+}
+
+.cert-desc {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    line-height: 1.5;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Styling cho contact grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+    border-color: #d2691e;
+    background: rgba(210, 105, 30, 0.05);
+}
+
+[data-theme="dark"] .contact-item:hover {
+    border-color: #ffa07a;
+    background: rgba(255, 160, 122, 0.05);
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    color: #d2691e;
+    min-width: 30px;
+}
+
+[data-theme="dark"] .contact-icon {
+    color: #ffa07a;
+}
+
+.contact-info strong {
+    display: block;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 0.2rem;
+}
+
+.contact-info span {
+    color: var(--secondary);
+    font-size: 0.9rem;
+}
+
+.contact-info a {
+    color: #d2691e;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+[data-theme="dark"] .contact-info a {
+    color: #ffa07a;
+}
+
 /* Responsive cho mobile */
 @media (max-width: 768px) {
     .post-content h1 {
@@ -158,5 +299,18 @@
     
     .post-content ul, .post-content ol {
         padding-left: 1.5rem;
+    }
+    
+    .certificates-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .cert-card {
+        flex-direction: column;
+        text-align: center;
     }
 }
