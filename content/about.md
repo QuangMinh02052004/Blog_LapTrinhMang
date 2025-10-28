@@ -8,11 +8,14 @@ tocOpen: false
 
 <div class="cv-container">
 
-<!-- CV Header with Download Button -->
+<!-- CV Header with Profile Photo -->
 <div class="cv-header">
-  <div class="cv-header-content">
-    <h1 class="cv-name">Lê Quang Minh</h1>
-    <p class="cv-title">Software Engineer | Network Programming Specialist</p>
+  <div class="cv-header-left">
+    <img src="/images/profile/avatar.jpg" alt="Lê Quang Minh" class="cv-profile-photo">
+    <div class="cv-header-content">
+      <h1 class="cv-name">Lê Quang Minh</h1>
+      <p class="cv-title">Software Engineer | Network Programming Specialist</p>
+    </div>
   </div>
   <a href="/cv/Le-Quang-Minh-CV.pdf" download class="cv-download-btn">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -114,7 +117,6 @@ tocOpen: false
         <span class="skill-tag">HTML/CSS</span>
       </div>
     </div>
-    
     <div class="cv-skill-box">
       <h3>🛠️ Frameworks & Tools</h3>
       <div class="cv-skill-tags">
@@ -125,7 +127,6 @@ tocOpen: false
         <span class="skill-tag">Hugo</span>
       </div>
     </div>
-    
     <div class="cv-skill-box">
       <h3>🌐 Network & Web Tech</h3>
       <div class="cv-skill-tags">
@@ -136,7 +137,6 @@ tocOpen: false
         <span class="skill-tag">RMI</span>
       </div>
     </div>
-    
     <div class="cv-skill-box">
       <h3>💾 Database</h3>
       <div class="cv-skill-tags">
@@ -152,7 +152,7 @@ tocOpen: false
   <h2 class="cv-section-title">Chứng chỉ & Giải thưởng</h2>  
   <div class="cv-cert-grid">
     <div class="cv-cert-item">
-      <img src="/static/images/certificates/networking-basics.png" alt="Networking Basics" class="cv-cert-img">
+      <img src="/static/images/certificates/networking-basics.jpg" alt="Networking Basics" class="cv-cert-img">
       <div class="cv-cert-details">
         <h4>Networking Basics</h4>
         <p>Cisco Networking Academy</p>
@@ -160,7 +160,7 @@ tocOpen: false
       </div>
     </div>   
     <div class="cv-cert-item">
-      <img src="/static/images/certificates/javascript-essentials-1.png" alt="JavaScript Essentials 1" class="cv-cert-img">
+      <img src="/static/images/certificates/javascript-essentials-1.jpg" alt="JavaScript Essentials 1" class="cv-cert-img">
       <div class="cv-cert-details">
         <h4>JavaScript Essentials 1</h4>
         <p>Cisco Networking Academy</p>
@@ -168,7 +168,7 @@ tocOpen: false
       </div>
     </div> 
     <div class="cv-cert-item">
-      <img src="/static/images/certificates/javascript-essentials-2.png" alt="JavaScript Essentials 2" class="cv-cert-img">
+      <img src="/static/images/certificates/javascript-essentials-2.jpg" alt="JavaScript Essentials 2" class="cv-cert-img">
       <div class="cv-cert-details">
         <h4>JavaScript Essentials 2</h4>
         <p>Cisco Networking Academy</p>
@@ -241,6 +241,23 @@ tocOpen: false
   padding-bottom: 2rem;
   border-bottom: 3px solid #2c5f7c;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.cv-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cv-profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #2c5f7c;
+  box-shadow: 0 4px 12px rgba(44, 95, 124, 0.3);
 }
 
 .cv-name {
