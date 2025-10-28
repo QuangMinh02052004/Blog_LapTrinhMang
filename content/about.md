@@ -9,7 +9,7 @@ showToc: false
 
 <!-- Profile Section -->
 <div class="cv-profile">
-  <img src="/Users/lequangminh/Downloads/z7163575098038_ebe709ec70dde62465f7e36f677a1f32.jpg" alt="Lê Quang Minh" class="cv-profile-image">
+  <img src="/Downloads/z7163575098038_ebe709ec70dde62465f7e36f677a1f32.jpg" alt="Lê Quang Minh" class="cv-profile-image">
   <h1 class="cv-name">Lê Quang Minh</h1>
   <p class="cv-title">Software Engineer | Network Programming Specialist</p>
   <p class="cv-summary">
