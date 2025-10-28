@@ -11,7 +11,7 @@ tocOpen: false
 <!-- CV Header with Profile Photo -->
 <div class="cv-header">
   <div class="cv-header-left">
-    <img src="/images/profile/avatar.jpg" alt="Lê Quang Minh" class="cv-profile-photo">
+    <img src="/images/profile/avt.jpg" alt="Lê Quang Minh" class="cv-profile-photo">
     <div class="cv-header-content">
       <h1 class="cv-name">Lê Quang Minh</h1>
       <p class="cv-title">Software Engineer | Network Programming Specialist</p>
@@ -196,15 +196,13 @@ tocOpen: false
         <p>Chia sẻ kiến thức, tips & tricks về lập trình mạng, Java, JavaScript và phát triển web</p>
       </div>
     </div>
-    
     <div class="cv-blog-item">
       <div class="cv-blog-icon">�</div>
       <div>
         <strong>Học hỏi từ cộng đồng</strong>
         <p>Kết nối với những người có cùng đam mê, trao đổi và học hỏi lẫn nhau</p>
       </div>
-    </div>
-    
+    </div>  
     <div class="cv-blog-item">
       <div class="cv-blog-icon">�</div>
       <div>
